@@ -1,5 +1,6 @@
-# Build a TalkTrek Clone With Nextjs, React, Drizzle, Stripe
+# TalkTrek - AI-Powered Language Learning Platform
 
+TalkTrek is an advanced, gamified language learning platform built with cutting-edge technologies like Next.js 14, React, DrizzleORM, and Stripe. This project is designed to provide an engaging and interactive learning experience through features like AI-driven voice feedback, quests, and rewards.
 
 Key Features:
 - 🌐 Next.js 14 & server actions
@@ -25,14 +26,10 @@ Key Features:
 - 📱 Mobile responsiveness
 
 ### Install packages
-
 ```bash
 npm i
 ```
-
 ### Setup .env file
-
-
 ```js
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
 CLERK_SECRET_KEY=""
@@ -41,22 +38,15 @@ STRIPE_API_KEY=""
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 STRIPE_WEBHOOK_SECRET=""
 ```
-
 ### Setup Drizzle ORM
-
 ```bash
 npm run db:push
-
 ```
-
 ### Seed the app
-
 ```bash
 npm run db:seed
-
 ```
 ### Start the app
-
 ```bash
 npm run dev
 ```
